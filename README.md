@@ -6,6 +6,9 @@ Your challenge is to deploy a python workload on Kubernetes.
 The goal is to deploy the application from the `app` directory to a 
 local Kubernetes cluster. 
 
+Before running the application, please re-implement the `square()` function
+as described in the python file.
+
 Two versions of the python application should be available, with 
 different resource constraints. Both should be available from within
 the `default` namespace under specific domain names:
