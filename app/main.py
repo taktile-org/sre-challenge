@@ -5,6 +5,7 @@ app = FastAPI()
 
 
 def square(n: int):
+    # TODO: implement this function without using multiplication
     return n * n
 
 
